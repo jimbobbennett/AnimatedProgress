@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 	   		 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 xmlns:local="clr-namespace:AnimatedProgress"
-			 x:Class="AnimatedProgress.AnimatedProgressPage">
+			 xmlns:jbb="clr-namespace:JimBobBennett.AnimatedProgress;assembly=JimBobBennett.AnimatedProgress"
+			 x:Class="AnimatedProgress.Core.AnimatedProgressPage">
 	<StackLayout Padding="20,100" Spacing="40">
-		<ProgressBar local:AttachedProperties.AnimatedProgress="{Binding Progress}"/>
+		<ProgressBar jbb:AttachedProperties.AnimatedProgress="{Binding Progress}"/>
 		<Entry Text="{Binding ProgressPercent}"/>
 	</StackLayout>
 </ContentPage>

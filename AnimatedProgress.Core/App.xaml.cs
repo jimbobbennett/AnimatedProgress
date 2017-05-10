@@ -1,6 +1,6 @@
 using Xamarin.Forms;
 
-namespace AnimatedProgress
+namespace AnimatedProgress.Core
 {
    public partial class App : Application
    {

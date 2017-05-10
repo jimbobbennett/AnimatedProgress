@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace AnimatedProgress
+namespace JimBobBennett.AnimatedProgress
 {
    public static class AttachedProperties
    {

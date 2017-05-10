@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace AnimatedProgress
+namespace AnimatedProgress.Core
 {
    public class ProgressViewModel : INotifyPropertyChanged
    {
