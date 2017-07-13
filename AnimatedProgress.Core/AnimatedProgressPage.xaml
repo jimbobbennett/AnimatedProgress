@@ -4,7 +4,9 @@
 			 xmlns:jbb="clr-namespace:JimBobBennett.AnimatedProgress;assembly=JimBobBennett.AnimatedProgress"
 			 x:Class="AnimatedProgress.Core.AnimatedProgressPage">
 	<StackLayout Padding="20,100" Spacing="40">
-		<ProgressBar jbb:AttachedProperties.AnimatedProgress="{Binding Progress}"/>
+		<ProgressBar jbb:AttachedProperties.AnimatedProgress="{Binding Progress}"
+                     jbb:AttachedProperties.AnimatedProgressAnimationTime="1000"
+                     jbb:AttachedProperties.AnimatedProgressEasing="BounceOut"/>
 		<Entry Text="{Binding ProgressPercent}"/>
 	</StackLayout>
 </ContentPage>
