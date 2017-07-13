@@ -33,5 +33,7 @@ Install-Package JimBobBennett.AnimatedProgress
 There are three properties you can set:
 
 `AnimatedProgress` is used to set the progress value to animate to.
+
 `AnimatedProgressAnimationTime` is the time in milliseconds for the progress animation
+
 `AnimatedProgressEasing` is the name of the easing function to use. This needs to match one of the static members on the `Xamarin.Forms.Easing` class, such as `SinIn` or `BounceOut`.
